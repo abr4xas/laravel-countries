@@ -2,9 +2,11 @@
 
 # Laravel Countries
 
-[![Total Downloads](https://poser.pugx.org/abr4xas/laravel-countries/downloads.svg)](https://packagist.org/packages/abr4xas/laravel-countries)
-[![Latest Stable Version](https://poser.pugx.org/abr4xas/laravel-countries/v/stable.svg)](https://packagist.org/packages/abr4xas/laravel-countries)
-[![Latest Unstable Version](https://poser.pugx.org/abr4xas/laravel-countries/v/unstable.svg)](https://packagist.org/packages/abr4xas/laravel-countries)
+[![Latest Stable Version](https://poser.pugx.org/abr4xas/laravel-countries/v/stable?format=flat-square)](https://packagist.org/packages/abr4xas/laravel-countries)
+[![Total Downloads](https://poser.pugx.org/abr4xas/laravel-countries/downloads?format=flat-square)](https://packagist.org/packages/abr4xas/laravel-countries)
+[![Latest Unstable Version](https://poser.pugx.org/abr4xas/laravel-countries/v/unstable?format=flat-square)](https://packagist.org/packages/abr4xas/laravel-countries)
+[![License](https://poser.pugx.org/abr4xas/laravel-countries/license?format=flat-square)](https://packagist.org/packages/abr4xas/laravel-countries)
+[![composer.lock](https://poser.pugx.org/abr4xas/laravel-countries/composerlock?format=flat-square)](https://packagist.org/packages/abr4xas/laravel-countries)
 
 Laravel Countries is a bundle for Laravel, providing Almost `ISO 3166_2`, `ISO 3166_3`, currency, Capital and more for all countries.
 
@@ -16,11 +18,13 @@ Laravel Countries is a bundle for Laravel, providing Almost `ISO 3166_2`, `ISO 3
 
 Add `abr4xas/laravel-countries` to `composer.json`.
 
-    "abr4xas/laravel-countries": "dev-master"
-    
+```json
+"abr4xas/laravel-countries": "dev-master"
+```
+
 Run `composer update` to pull down the latest version of Country List.
 
-**If you're using Laravel 5.5, you don't have to edit `app/config/app.php`.**
+In Laravel 5.5, with Package Auto Discovery it should all be set automatically. For < 5.5, follow these instructions after composer finishes package installation:
 
 Edit `app/config/app.php` and add the `provider` and `filter`
 
