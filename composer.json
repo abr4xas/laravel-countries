@@ -1,32 +1,31 @@
 {
-	"name" : "webpatser/laravel-countries",
-	"description" : "Laravel Countries is a bundle for Laravel, providing Almost ISO 3166_2, 3166_3, currency, Capital and more for all countries.",
-	"authors" : [{
-			"name" : "Christoph Kempen",
-			"email" : "christoph@downsized.nl",
-			"homepage" : "http://downsized.nl/",
-			"role" : "developer"
-		}, {
-			"name" : "Paul Kievits",
-			"role" : "developer"
-		}
-	],
-	"keywords" : [
+	"name": "webpatser/laravel-countries",
+	"description": "Laravel Countries is a bundle for Laravel, providing Almost ISO 3166_2, 3166_3, currency, Capital and more for all countries.",
+	"authors": [{
+		"name": "Christoph Kempen",
+		"email": "christoph@downsized.nl",
+		"homepage": "http://downsized.nl/",
+		"role": "developer"
+	}, {
+		"name": "Paul Kievits",
+		"role": "developer"
+	}],
+	"keywords": [
 		"laravel",
 		"countries",
 		"iso_3166_2",
 		"iso_3166_3"
 	],
-	"homepage" : "https://github.com/webpatser/laravel-countries",
-	"license" : [
+	"homepage": "https://github.com/webpatser/laravel-countries",
+	"license": [
 		"MIT"
 	],
-	"require" : {
-		"php" : ">=7.1"
+	"require": {
+		"php": ">=7.1"
 	},
-	"autoload" : {
-		"psr-4" : {
-			"Webpatser\\Countries\\" : "src/"
+	"autoload": {
+		"psr-4": {
+			"Webpatser\\Countries\\": "src/"
 		}
 	},
 	"autoload-dev": {
@@ -34,21 +33,21 @@
 			"Tests\\": "tests/"
 		}
 	},
-	"minimum-stability" : "dev",
-	"support" : {
-		"source" : "https://github.com/webpatser/laravel-countries",
-		"issues" : "https://github.com/webpatser/laravel-countries/issues"
+	"minimum-stability": "dev",
+	"support": {
+		"source": "https://github.com/webpatser/laravel-countries",
+		"issues": "https://github.com/webpatser/laravel-countries/issues"
 	},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Webpatser\\Countries\\CountriesServiceProvider"
-            ],
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Webpatser\\Countries\\CountriesServiceProvider"
+			],
 			"aliases": {
 				"Countries": "Webpatser\\Countries\\CountriesFacade"
 			}
-        }
-    },
+		}
+	},
 	"require-dev": {
 		"orchestra/testbench": "~3.3"
 	}

@@ -36,10 +36,6 @@
       "calling_code":"355",
       "currency_symbol":"Lek",
       "currency_decimals":"2",
-<<<<<<< HEAD
-      "flag":"AL.png",
-      "continent":"Europe"
-=======
       "flag":"AL.png"
    },
    "10":{
@@ -60,7 +56,6 @@
       "currency_symbol":"",
       "currency_decimals":"2",
       "flag":"AQ.png"
->>>>>>> c4181620194c61c6cea873ba91ac973170d180ed
    },
    "12":{
       "capital":"Algiers",
@@ -1931,10 +1926,6 @@
       "calling_code":"61",
       "currency_symbol":"$",
       "currency_decimals":"2",
-<<<<<<< HEAD
-      "flag":"HM.png",
-      "continent":""
-=======
       "flag":"HM.png"
    },
    "336":{
@@ -1955,7 +1946,6 @@
       "currency_symbol":"\u20ac",
       "currency_decimals":"2",
       "flag":"VA.png"
->>>>>>> c4181620194c61c6cea873ba91ac973170d180ed
    },
    "340":{
       "capital":"Tegucigalpa",
@@ -2852,13 +2842,7 @@
       "sub_region_code":"039",
       "eea":false,
       "calling_code":"382",
-<<<<<<< HEAD
-      "currency_symbol":"\u20ac",
-      "currency_decimals":"2",
-      "flag":"ME.png"
-=======
       "continent":"Europe"
->>>>>>> 723b0df36afadaf422f90daab75a8b5b9cf4168f
    },
    "500":{
       "capital":"Plymouth (MS2)",
@@ -4762,10 +4746,6 @@
       "calling_code":"1",
       "currency_symbol":"$",
       "currency_decimals":"2",
-<<<<<<< HEAD
-      "flag":"US.png",
-      "continent":"America"
-=======
       "flag":"US.png"
    },
    "850":{
@@ -4786,7 +4766,6 @@
       "currency_symbol":"$",
       "currency_decimals":"2",
       "flag":"VI.png"
->>>>>>> c4181620194c61c6cea873ba91ac973170d180ed
    },
    "854":{
       "capital":"Ouagadougou",
