@@ -44,7 +44,7 @@ class MigrationCommand extends Command {
 
         $this->line('');
 
-        if ( $this->confirm("Proceed with the migration creation? [Yes|no]") )
+        if ($this->confirm("Proceed with the migration creation? [Yes|no]"))
         {
             $this->line('');
 
@@ -55,13 +55,11 @@ class MigrationCommand extends Command {
 
                 if (version_compare(app()->version(), '5.5.0', '<')) {
                     $this->call('optimize', []);
+                    $this->line('');   
                 }
 
-                $this->line('');
-
                 $this->info( "Migration successfully created!" );
-            }
-            else{
+            } else {
                 $this->error( 
                     "Coudn't create migration.\n Check the write permissions".
                     " within the app/database/migrations directory."
@@ -105,6 +103,7 @@ class MigrationCommand extends Command {
         $migrationFiles = [
             $this->laravel->path."/../database/migrations/*_setup_countries_table.php" => 'countries::generators.migration',
             $this->laravel->path."/../database/migrations/*_charify_countries_table.php" => 'countries::generators.char_migration',
+            $this->laravel->path."/../database/migrations/*_add_continent_countries_table.php" => 'countries::generators.continent_migration'
         ];
 
         $seconds = 0;
