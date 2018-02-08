@@ -1,5 +1,5 @@
 {
-	"name": "webpatser/laravel-countries",
+	"name": "abr4xas/laravel-countries",
 	"description": "Laravel Countries is a bundle for Laravel, providing Almost ISO 3166_2, 3166_3, currency, Capital and more for all countries.",
 	"authors": [{
 		"name": "Christoph Kempen",
@@ -9,6 +9,11 @@
 	}, {
 		"name": "Paul Kievits",
 		"role": "developer"
+	},{
+		"name": "Angel Cruz",
+		"email": "me@abr4xas.org",
+		"homepage": "https://abr4xas.org/",
+		"role": "developer"
 	}],
 	"keywords": [
 		"laravel",
@@ -16,7 +21,7 @@
 		"iso_3166_2",
 		"iso_3166_3"
 	],
-	"homepage": "https://github.com/webpatser/laravel-countries",
+	"homepage": "https://github.com/abr4xas/laravel-countries",
 	"license": [
 		"MIT"
 	],
@@ -35,8 +40,8 @@
 	},
 	"minimum-stability": "dev",
 	"support": {
-		"source": "https://github.com/webpatser/laravel-countries",
-		"issues": "https://github.com/webpatser/laravel-countries/issues"
+		"source": "https://github.com/abr4xas/laravel-countries",
+		"issues": "https://github.com/abr4xas/laravel-countries/issues"
 	},
 	"extra": {
 		"laravel": {
